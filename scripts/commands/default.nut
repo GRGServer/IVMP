@@ -1,0 +1,1 @@
+sendPlayerMessage(playerId, tr("Unknown command: @1", command.slice(1)));
