@@ -5,6 +5,7 @@
 dofile("scripts/events/playerCommand.nut");
 dofile("scripts/events/scriptInit.nut");
 dofile("scripts/functions/str_replace.nut");
+dofile("scripts/functions/getPlayerData.nut");
 dofile("scripts/functions/tr.nut");
 
 // Events

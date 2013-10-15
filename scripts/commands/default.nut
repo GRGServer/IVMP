@@ -1,1 +1,1 @@
-sendPlayerMessage(playerId, tr("Unknown command: @1", command.slice(1)));
+sendPlayerMessage(playerId, tr("Unknown command: @1", playerId, command.slice(1)));

@@ -1,6 +1,13 @@
-function tr(string, language, ...)
+function tr(string, playerId, ...)
 {
-	if (language in translationStrings && string in translationStrings[language])
+	local language = "en";
+
+	if (playerId != null)
+	{
+		language = getPlayerData(playerId).language;
+	}
+
+	if (language != "en" && language in translationStrings && string in translationStrings[language])
 	{
 		string = translationStrings[language][string];
 	}
